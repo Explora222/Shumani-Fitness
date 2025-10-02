@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shumani Fitness</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Shumani<span>Fitness</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Join</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle">☰</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Transform Your Body, <span>Transform Your Life</span></h1>
+      <p>Join the ultimate fitness experience with expert trainers & modern facilities.</p>
+      <a href="#contact" class="btn-primary">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Classes Section -->
+  <section id="classes" class="section">
+    <h2>Our Classes</h2>
+    <div class="tabs">
+      <button class="tab active" data-class="yoga">Yoga</button>
+      <button class="tab" data-class="hiit">HIIT</button>
+      <button class="tab" data-class="strength">Strength Training</button>
+    </div>
+    <div class="class-schedule">
+      <div class="class-card yoga active">
+        <h3>Morning Yoga</h3>
+        <p>8:00 AM - 9:00 AM</p>
+      </div>
+      <div class="class-card hiit">
+        <h3>HIIT Blast</h3>
+        <p>6:00 PM - 7:00 PM</p>
+      </div>
+      <div class="class-card strength">
+        <h3>Strength Power</h3>
+        <p>7:30 PM - 8:30 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainers Section -->
+  <section id="trainers" class="section">
+    <h2>Meet Our Trainers</h2>
+    <div class="trainer-grid">
+      <div class="trainer-card">
+        <img src="Alex.jpeg" alt="Trainer 1">
+        <h3>Alex Johnson</h3>
+        <p>Strength Coach</p>
+      </div>
+      <div class="trainer-card">
+        <img src="Maria.jpeg" alt="Trainer 2">
+        <h3>Maria Lopez</h3>
+        <p>Yoga Instructor</p>
+      </div>
+      <div class="trainer-card">
+        <img src="David.jpeg" alt="Trainer 3">
+        <h3>David Kim</h3>
+        <p>HIIT Specialist</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section">
+    <h2>Membership Plans</h2>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <p>R300 / month</p>
+        <ul>
+          <li>Access to Gym</li>
+          <li>1 Free Class / Week</li>
+        </ul>
+        <a href="#contact" class="btn-secondary">Choose Plan</a>
+      </div>
+      <div class="card featured">
+        <h3>Pro</h3>
+        <p>R350 / month</p>
+        <ul>
+          <li>Unlimited Classes</li>
+          <li>Personal Trainer</li>
+          <li>Free Diet Plan</li>
+        </ul>
+        <a href="#contact" class="btn-secondary">Choose Plan</a>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <p>R400 / month</p>
+        <ul>
+          <li>All Pro Features</li>
+          <li>Sauna & Spa</li>
+          <li>VIP Support</li>
+        </ul>
+        <a href="#contact" class="btn-secondary">Choose Plan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <h2>What Our Members Say</h2>
+    <div class="carousel">
+      <div class="testimonial active">
+        <p>"Shumani Fitness changed my life. Best trainers and amazing vibes!"</p>
+        <span>- Sarah M.</span>
+      </div>
+      <div class="testimonial">
+        <p>"The HIIT classes are intense but worth it. Highly recommend."</p>
+        <span>- James P.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Affordable plans with premium facilities. Love it here!"</p>
+        <span>- Emily R.</span>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="prev">‹</button>
+      <button class="next">›</button>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Join Us Today</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Your Message" rows="4"></textarea>
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shumani Fitness. All Rights Reserved.</p>
+    <p>Designed By <strong>Shumani Monyai</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
